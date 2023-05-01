@@ -159,4 +159,38 @@
       margin-right: 0;
     }
   }
-    
+  @keyframes data-loading {
+    0% {
+      background-color: #bbb;
+      width: 0;
+    }
+    50% {
+      background-color: #bbb;
+      width: 50%;
+    }
+    100% {
+      background-color: #bbb;
+      width: 100%;
+    }
+  }
+  
+  .data-loader {
+    background-color: #ddd;
+    height: 10px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    animation: data-loading 2s ease-in-out infinite;
+  }
+  
+  .data-loader:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background-color: #ccc;
+    width: 100%;
+  }
+      
