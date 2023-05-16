@@ -194,23 +194,3 @@ section h2 {
     background-color: #ccc;
     width: 100%;
     }
-    .parallax {
-      background-image: url('photo-profile-min.jpg');
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 500px;
-      position: relative;
-    }
-    
-    .parallax-content {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .project:hover {
-      transform: scale(1.2);
-      transition: transform 0.3s ease-in-out;
-    }
